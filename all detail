@@ -1,0 +1,121 @@
+<!-- clone command -->
+1. git clone (link of http)
+You can fetch the file in github (recive)
+2. cd  (command)
+change the directory
+3. ls  (command)
+list file
+4. ls -a (command)
+you can see it all file (including hidden file)
+5. cd ..
+come out side the file
+
+
+<!-- Status command -->
+
+1.git status
+Given me all information about file including github also
+
+2. git add (filename)
+when you change file in your working dirctory to Git staging area.
+
+3. git add (.)
+when you add all files in github
+
+4. git commit -m "Enter the message"
+you can write some message 
+
+<!-- Push command -->
+1. git push origin main 
+then you push your file in the github(upload local repo content to remote repo)
+
+2. git push -u origin main
+it main you work on same project then you useing it
+
+
+<!-- Init command -->
+
+0. mkdir (filename)
+you can make it new file by the help of git
+
+1. git init 
+this means you can install the git file..(hidden file);
+
+2. git remote add origin (link of github  new repository)
+
+it mains you can add first repository in your github then you can past the http here
+because this is first command to used 
+
+3. git remote -v
+it give me where are you fetch and puch the data
+
+4. git branch
+it show me which branch we using  
+
+5. git branch -M (branch changing name )
+it means you can change the branch name and you can also used it
+
+
+
+<!-- Branchs command -->
+
+ 1. git branch
+ they given me result which branch we work.(you can check which branch we can do work)
+
+2. git branch -M (to rename branch)
+you can change the branch name.
+
+3. git checkout  -b (new branch name)
+you can create the new branch 
+
+4. git checkout (branch name)
+its mains you can change the  branch.
+
+5. git branch -d (branch name)
+it mains you can delete the branch .
+
+<!-- Merging code -->
+
+1. git diff (branch name)
+ to compare the two branchs and files & more.
+ {its give me all different between to files.}
+
+2. git merge (branch name)
+merge to file name.
+
+<!--  Pull command  -->
+
+1. git pull origin main
+its main used when you merge to branch in github then you fetch and download content from a remote repo and immediately update the local repo to match thet contect 
+{jab hum two branch to merge karta hm github par tab humko apna laptop mai nhi show hota tab hum pull ky use karta hm ya jaldi humko result deti hm}
+
+
+<!-- Undoing Changes -->
+<!-- its when you do any mistake (delete the file ) then you used it  -->
+ 1. git reset (filename)
+ its reset only that file 
+
+ 2. git reset
+ its reset  all files 
+
+ 3. git reset HEAD~1
+ its reset the last commit because last commit we called HEAD.
+
+ 4. git log 
+ you can check your all commit
+
+ 5. git reset (Enter the commmit hash)
+ when you write commit hash then you go it there.
+
+
+<!-- Fork -->
+a fork is a new repository that shares code and visibility setting with the original "upstream respository".
+{it means you create your pull request and you can copy by the content in the your github }
+
+
+<!-- Resolving Merge Conflicts -->
+ when you merge to branch when to files changes in same place then git give you error 
+ 1.they also give you click option 
+ 2.and git also give you option you change it accouding you
+  
+  git merge 
