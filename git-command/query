@@ -1,0 +1,191 @@
+<!-- clone command -->
+1. git clone (link of http)
+You can fetch the file in github (recive)
+2. cd  (command)
+change the directory
+3. ls  (command)
+list file
+4. ls -a (command)
+you can see it all file (including hidden file)
+5. cd ..
+come out side the file
+
+
+<!-- Status command -->
+
+1.git status
+Given me all information about file including github also
+
+2. git add (filename)
+when you change file in your working dirctory to Git staging area.
+
+3. git add (.)
+when you add all files in github
+
+4. git commit -m "Enter the message"
+you can write some message 
+
+<!-- Push command -->
+1. git push origin main 
+then you push your file in the github(upload local repo content to remote repo)
+
+2. git push -u origin main
+it main you work on same project then you useing it
+
+
+<!-- Init command -->
+
+0. mkdir (filename)
+you can make it new file by the help of git
+
+1. git init 
+this means you can install the git file..(hidden file);
+
+2. git remote add origin (link of github  new repository)
+
+it mains you can add first repository in your github then you can past the http here
+because this is first command to used 
+
+3. git remote -v
+it give me where are you fetch and puch the data
+
+4. git branch
+it show me which branch we using  
+
+5. git branch -M (branch changing name )
+it means you can change the branch name and you can also used it.
+
+
+<!-- Branchs command -->
+
+ 1. git branch
+ they given me result which branch we work.(you can check which branch we can do work)
+
+2. git branch -M (to create  name branch)
+you can change the branch name.
+
+6. git branch -M (your old branch name)    (what you  rename it branch name:)
+ it mains you can change it old branch name by this method.
+
+3. git checkout  -b (new branch name)
+you can create the new branch 
+
+4. git checkout (branch name)
+its mains you can change the  branch.
+
+5. git branch -d (branch name)
+it mains you can delete the branch .
+
+6. git branch <branch name>
+ it mains you can create a branch.
+
+7. git branch 
+ it mains you can check it branch.
+
+<!-- Merging code -->
+
+1. git diff (branch name)
+ to compare the two branchs and files & more.
+ {its give me all different between to files.}
+
+2. git merge (branch name)
+merge to file name.
+
+3. git rebase main(branch)
+when you sift the branch location in the main (isska matlb ky hm ke jab hum main branch aur feature branch dono mai kaam karta hm tab humko apni feature branch ko main branch ky aaga karna hm to hum rebase use karta hm)
+
+4. git merge --squash (branch name)
+its main delete it commit all in the feature branch (isska matlb ya hm ke jab hum --squash  use karta hm tum hum feature hum jo ve commit karta hm wo delete kar deta hm aur merge kar dta hm )
+
+
+<!--  Pull command  -->
+
+1. git pull origin main
+its main used when you merge to branch in github then you fetch and download content from a remote repo and immediately update the local repo to match thet contect 
+{jab hum two branch to merge karta hm github par tab humko apna laptop mai nhi show hota tab hum pull ky use karta hm ya jaldi humko result deti hm}
+
+
+<!-- see your all Commit  -->
+  1. git log 
+  its show your all commit in detail.
+  2. git log --oneline 
+  its also show your all commit but not a detail.
+
+
+<!-- restore it in  the local server  work on staged to unstaged  Convert -->
+1. git restore --staged  (filename)
+its sift it staged to unstaged  convert it file
+
+ 2. git restore -- staged   .
+ its sift it staged to unstaged  convert it all file
+
+ 3. git restore (filename)
+ its revert (it main delete ) you file
+
+ 4. git restore .
+  its revert (it main delete ) you  all file
+
+  
+<!-- Undoing Changes -->
+<!-- its when you do any mistake (delete the file ) then you used it  -->
+ 1. git reset (hash code)
+ its convert you file in unstaged.
+
+ 2. git reset
+ its reset  all files 
+
+ 3. git reset HEAD~1
+ its reset the last commit because last commit we called HEAD.
+
+
+ 5. git reset (Enter the commmit hash)
+ its convert you file in unstaged.but you data  (file) is not deleted
+
+ 6. git reset --soft  <hash code>
+ its convert to you file staged but you data  (file) is not deleted
+
+7. git reset --hard <hash code>
+its delete it all file and data (you can come me the enter the hash code)
+
+
+<!-- Roolback KEy of REVERT -->
+ 1. git revert <hash code>
+ jab humko koe midle file delete karna hm tab hum git revert ky use karta hm ya humko ek aur commit add kar deta hm fir jab humko delete karna ky baad  fir sa ussko apni file mai lena hm jab hum git reset karta jo new commit keya hm ussko delete karna hm tab humko dekhga.
+ 
+ <!--    WHen you add in one commit in the new branch-->
+1. git cherry-pick <hash code>
+isska kaam ya hm ke jab hum two branch mai kaam karta hm aur fir humko ek branch ky ek commit ko apna dusra branch mai add karta hm usska hash code sa .
+
+<!-- Fork -->
+a fork is a new repository that shares code and visibility setting with the original "upstream respository".
+{it means you create your pull request and you can copy by the content in the your github }
+
+
+<!-- Resolving Merge Conflicts -->
+ when you merge to branch when to files changes in same place then git give you error 
+ 1.they also give you click option 
+ 2.and git also give you option you change it accouding you
+  
+  git merge 
+
+
+
+
+  CRUD ???
+  GIT ??
+  GIT  HUB???
+
+
+ in git editor is VIM
+
+
+  <!-- Touch  -->
+ 1. touch "this is create a file " and file name ,your can create a multiple file
+ 2. vim <file name> "it open that file when you search and work it"
+                    1. then we press" I "
+                    2. then we save it PRESS  "ESC KEY" 
+                    3.  SHIFT + : THEN WE PRESS A  X    ,wq "both are cut the and come out side" 
+
+
+
+<!-- HOw to crate a a folder in the : -->
